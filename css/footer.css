@@ -1,0 +1,72 @@
+.footer {
+  background-color: #0a0a0a;
+  min-height: auto;
+  margin-top: 3rem;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: var(--white);
+  text-transform: capitalize;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.footer .box-container .box .link {
+  display: block;
+  color: #aaa;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.footer .box-container .box .link i {
+  color: #cb151c;
+  padding-right: .5rem;
+}
+
+.footer .box-container .box .link:hover {
+  color: #cb151c;
+}
+
+.footer .box-container .box .link:hover i {
+  padding-right: 2rem;
+}
+
+.footer .box-container .box .share {
+  margin-top: 2rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #000;
+  margin-right: .5rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background-color: #cb151c;
+  color: var(--white);
+}
+
+.footer .credit {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--white);
+  padding-top: 2rem;
+  margin-top: 3rem;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.footer .credit span {
+  color: #cb151c;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap");
+
+:root {
+  --red:#d5141d;
+  --white:#fff;
+  --black:#000;
+}
+
+*{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  font-family: Nunito;
+  text-decoration: none;
+  outline:none;
+  border:none;
+  transition: all .2s ease-out;
+}
+
+*::selection{
+  background:var(--red);
+  color:var(--white);
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
+}
+
+section{
+  padding: 3rem 9%;
+}
+
+body{
+  overflow-x: hidden;
+  background-color:var(--black);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: var(--red);
+  color: var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background: var(--white);
+  color: var(--red);
+  border: 2px solid var(--red);
+}
+
+.heading{
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+header{
+  position: fixed;
+  top:0; left: 0; right: 0;
+  background-color:var(--black);
+  border-bottom: 0.1rem solid #ffffff78;
+  z-index: 10000;
+  padding:1.5rem 7%;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo img{
+  height:5rem;
+}
+
+header .navbar a{
+  font-size: 2rem;
+  margin-left: 2rem;
+  color:var(--white);
+}
+
+header .navbar a:hover{
+  color:var(--red);
+}
+
+.header .icons div,
+.header .icons a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background: #fff;
+  color: #000;
+  margin-left: .5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header .icons div:hover,
+.header .icons a:hover {
+  background: #cb151c;
+  color: var(--white);
+}
+
+.header #menu-btn {
+  display: none;
+}
+
+
+#menu-bars{
+  font-size: 3rem;
+  color:var(--white);
+  padding:.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: .5rem;
+  display: none;
+}

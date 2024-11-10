@@ -1,0 +1,107 @@
+.home {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background: url(../images/background2.jpg) no-repeat center/cover fixed;
+}
+
+.home .content {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+}
+
+.home .content p,
+.home .content h3 {
+  color: var(--white);
+  text-transform: uppercase;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+}
+
+.home .content p {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.home .content h3 {
+  font-size: 5rem;
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background: linear-gradient(transparent, #000);
+  z-index: 12;
+}
+
+
+.morecards {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.morecards .buttons {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.morecards .buttons .btn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.morecards .buttons .btn:hover {
+    background-color: var(--white);
+    color: var(--red);
+}
+
+
+.morecards .buttons .btn.active {
+    background-color: var(--white);
+    color: var(--red);
+    border: 2px solid var(--red);
+}
+
+
+.morecards .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem 1rem;
+    justify-items: center;
+}
+
+.morecards .card {
+    width: 100%;
+    max-width: 200px;
+}
+
+.morecards .card img {
+    width: 100%;
+    display: block;
+}
+
+
+.morecards .card-container.filtered {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: center;
+}
+
+.morecards .card:hover {
+  transform: translateY(-1rem);
+}
