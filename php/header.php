@@ -7,7 +7,7 @@
     <meta name="author" content="Tony Dang">
     <meta name="description" content="Collection de carte Pokémon">
     <meta name="keywords" content="Pokémon, Collection, Carte">
-    <meta data-n-head="true" data-hid="og:image" property="og:image" content="../images/background.jpg">
+    <meta data-n-head="true" data-hid="og:image" property="og:image" content="../images/background.gif">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico"> <!-- Favicon (icone titre)  -->
 
     <!-- Début importation librairie -->
