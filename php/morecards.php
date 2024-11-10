@@ -100,7 +100,7 @@
 						</div>
 
 						<div class="card pokemon-ex">
-							<img src="../images/cartes/MalvalameEX.png" alt="MalvalameEX" onclick="openModal('../images/cartes/MalvalameEX.png')">
+							<img src="../images/cartes/MalvalameEx.png" alt="MalvalameEX" onclick="openModal('../images/cartes/MalvalameEx.png')">
 						</div>
 
 						<div class="card pokemon-ex">
