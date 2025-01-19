@@ -1,4 +1,62 @@
-// Fonction pour ouvrir le modal avec l'image cliquée
+let menuBtn = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.header .navbar');
+
+menuBtn.onclick = () =>{
+   menuBtn.classList.toggle('fa-times');
+   navbar.classList.toggle('active');
+};
+
+// Bouton de musique du site
+let musicBtn = document.querySelector('#music-btn');
+
+// Evenement pour la musique
+musicBtn.addEventListener("click", () => {
+    if (son1.paused) {
+        son1.play();
+    }
+    else {
+        son1.pause();
+    }
+});
+
+// Fonction pour ouvrir ou fermer la modal de connexion
+function toggleLoginModal() {
+  const loginModal = document.getElementById('loginModal');
+  if (loginModal.style.display === 'block') {
+    loginModal.style.display = 'none';
+  } else {
+    loginModal.style.display = 'block';
+  }
+}
+
+// Fermeture automatique de la modal si on clique en dehors
+window.onclick = function (event) {
+  const loginModal = document.getElementById('loginModal');
+  if (event.target === loginModal) {
+    loginModal.style.display = 'none';
+  }
+};
+
+// Fonction pour dark mode
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+
+// Evenement lors du scroll
+window.onscroll = () =>{
+   menuBtn.classList.remove('fa-times');
+   navbar.classList.remove('active');
+
+   if(window.scrollY > 650){
+      document.querySelector('.header').classList.add('active');
+   }else{
+      document.querySelector('.header').classList.remove('active');
+   };
+};
+
+
+// Fonction pour ouvrir le modal d'une carte
 function openModal(imageSrc) {
     const modal = document.getElementById("modal");
     const modalImage = document.getElementById("modal-image");
@@ -6,14 +64,16 @@ function openModal(imageSrc) {
     modal.style.display = "flex";
 }
 
+// Fonction pour fermer le modal d'une carte
 function closeModal() {
     const modal = document.getElementById("modal");
     modal.style.display = "none";
 }
 
+// Fonction pour filtrer les cartes
 function filterCards(category) {
     const cards = document.querySelectorAll('.card');
-    const buttons = document.querySelectorAll('.buttons button'); 
+    const buttons = document.querySelectorAll('.buttons button');
 
     // Afficher/masquer les cartes selon la catégorie
     cards.forEach(card => {

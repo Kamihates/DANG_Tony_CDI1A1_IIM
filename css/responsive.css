@@ -24,6 +24,12 @@
     background: #000;
     border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
     border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+    height: 0;
+    overflow: hidden;
+  }
+
+  .header .navbar.active {
+    height: 17rem;
   }
 
   .header .navbar a {

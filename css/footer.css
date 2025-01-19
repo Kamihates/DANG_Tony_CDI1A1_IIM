@@ -48,7 +48,7 @@
   line-height: 4.5rem;
   font-size: 2rem;
   background-color: #fff;
-  color: #000;
+  color: var(--red);
   margin-right: .5rem;
   text-align: center;
 }
