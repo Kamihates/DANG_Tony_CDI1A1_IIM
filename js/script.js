@@ -96,3 +96,30 @@ function filterCards(category) {
     // Ajouter la classe 'active' au bouton cliqué
     document.querySelector(`.buttons button[onclick="filterCards('${category}')"]`).classList.add('active');
 }
+
+var swiper = new Swiper(".mySwiper", {
+  effect: "flip",
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  autoplay: {
+    delay: 2000, // 2 secondes
+    disableOnInteraction: false, // Ne pas désactiver l'autoplay après une interaction
+  },
+  loop: true, // Revenir au premier slide après le dernier
+  on: {
+    slideChange: function () {
+      // Récupérer le nom de la carte à partir de l'attribut data-name du slide actif
+      const activeSlide = this.slides[this.activeIndex];
+      const cardName = activeSlide.getAttribute('data-name');
+
+      // Afficher le nom de la carte dans l'élément #card-name
+      document.getElementById('card-name').textContent = cardName;
+    },
+  },
+});

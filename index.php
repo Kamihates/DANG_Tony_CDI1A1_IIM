@@ -16,8 +16,36 @@
     <div class="content">
       <h3>Pokémon</h3>
       <p>Cartes à jouer et à collectionner</p>
-      <a href="https://www.pokemon.com/fr/jcc-pokemon" class="btn">Site officiel Pokémon</a>
+      <a href="php/morecards.php" class="btn">Voir nos cartes</a>
     </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-name="Latios">
+          <img src="images/cartes/LatiosSpé.png" alt="Latios Spécial">
+        </div>
+        <div class="swiper-slide" data-name="Créfollet">
+          <img src="images/cartes/CréfolletSpé.png" alt="Créfollet Spécial">
+        </div>
+        <div class="swiper-slide" data-name="Milobellus EX">
+          <img src="images/cartes/MilobellusEX.png" alt="Milobellus EX">
+        </div>
+        <div class="swiper-slide" data-name="Pikachu EX">
+          <img src="images/cartes/PikachuEX.png" alt="Pikachu EX">
+        </div>
+        <div class="swiper-slide" data-name="Malvalame EX">
+          <img src="images/cartes/MalvalameEX.png" alt="Malvalame EX">
+        </div>
+        <div class="swiper-slide" data-name="Fulgulairo EX">
+          <img src="images/cartes/FulgulairoEX.png" alt="Fulgulairo EX">
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div id="card-name" class="card-name"></div>
 
   </section>
 
@@ -91,6 +119,61 @@
 
   <!-- Fin section cards -->
 
+  <!-- Début section team  -->
+
+  <section class="review" id="review">
+
+    <h1 class="heading">Avis utilisateurs</h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="images/gunderella.webp" class="user" alt="">
+        <h3>Elise</h3>
+        <p>Attrapez les tous ! Toutes les cartes sont collectables sans dépenser d'argent ce qui est parfait si vous n'avez pas les moyens !</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/scrapss.webp" class="user" alt="">
+        <h3>Scrapss</h3>
+        <p>Merci de nous faire retomber en enfance, c'est vraiment incroyable! J'ai toujours aimé collectionner les cartes Pokémon</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+
+      </div>
+
+      <div class="box">
+        <img src="images/LA8.png" class="user" alt="">
+        <h3>LA8</h3>
+        <div class="stars">
+          <p>J'aime beaucoup, étant un fan de Pokémon depuis petit, j'ai toujours aimé les jeux Pokémon et les cartes à collectionner!</p>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Fin section team -->
+
   <!-- Début section footer  -->
 
   <?php include 'php/footer.php'; ?>
@@ -98,6 +181,7 @@
   <!-- Fin section footer -->
 
   <!-- Link script js   -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
 
 </body>

@@ -37,11 +37,47 @@
     margin: 2rem;
   }
 
-  .home .content p {
-    font-size: 2rem;
+  .home {
+    flex-direction: column;
+    height: auto;
+    padding: 12rem;
   }
+
+  .home .content {
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+
   .home .content h3 {
-    font-size: 3rem;
+    font-size: 4rem;
+  }
+
+  .home .content p {
+    font-size: 1.8rem;
+  }
+
+  /* Ajuster l'image swiper */
+  .swiper {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 150px;  /* Réduire la taille */
+    height: 200px;
+  }
+
+  .swiper-slide {
+    width: 250px; /* Ajuster pour correspondre à la taille de la swiper */
+    height: 250px;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    top: 90%;  /* Positionner correctement les boutons */
+  }
+
+  .card-name {
+    font-size: 1.5rem;
+    bottom: 40px;
   }
 
   .cards .zoom-button {
