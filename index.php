@@ -70,6 +70,39 @@
 
   <!-- Fin section about -->
 
+  <!-- Début section activity  -->
+
+        <section class="features" id="features">
+
+           <h1 class="heading"> Nos offres</h1>
+
+           <div class="box-container">
+
+              <div class="box" class="box">
+                 <i class="fas fa-hourglass"></i>
+                 <h3>Boosters gratuits à ouvrir !</h3>
+                 <p>Accède à des boosters gratuits pour démarrer ta collection sans dépenser un centime. Chaque booster contient des cartes rares et uniques que tu peux utiliser pour affronter tes amis ou échanger !</p>
+              </div>
+
+              <div class="box" class="box">
+                 <i class="fas fa-credit-card"></i>
+                 <h3>Collectionne des cartes exclusives</h3>
+                 <p>Collectionne des cartes de Pokémon rares et légendaires disponibles uniquement sur notre plateforme. Fais évoluer ta collection à ton rythme et atteins des niveaux de collection exceptionnels !</p>
+              </div>
+
+              <div class="box" class="box">
+                 <i class="fas fa-desktop"></i>
+                 <h3>Interface intuitive et facile à utiliser</h3>
+                 <p>Notre plateforme est simple à prendre en main, même pour les débutants. Ouvre, collectionne, échange et combats en toute facilité !</p>
+              </div>
+
+           </div>
+
+        </section>
+
+        <!-- Fin section activity -->
+
+
   <!-- Début section cards -->
 
   <section class="cards" id="cards">

@@ -37,7 +37,9 @@
     <nav class="navbar">
       <a href="../#home">Accueil</a>
       <a href="../#about">A propos</a>
+      <a href="../#features">Nos offres</a>
       <a href="../#cards">Cartes en vedette</a>
+      <a href="../#review">Avis utilisateurs</a>      
     </nav>
 
     <div class="icons">

@@ -124,6 +124,41 @@
   padding: 1.5rem 0;
 }
 
+.features .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 20px;
+}
+
+.features .box-container .box {
+  text-align: center;
+  padding: 3rem;
+  border: 2px solid var(--red);
+}
+
+.features .box-container .box i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: var(--white);
+  background: var(--red);
+  margin-bottom: 1.5rem;
+}
+
+.features .box-container .box h3 {
+  font-size: 2rem;
+}
+
+.features .box-container .box p {
+  font-size: 1.6rem;
+  line-height: 2;
+  padding: 1.5rem 0;
+  padding-bottom: 0;
+}
+
+
 .cards {
   text-align: center;
 }
