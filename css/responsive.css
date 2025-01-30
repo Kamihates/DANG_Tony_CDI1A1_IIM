@@ -29,7 +29,7 @@
   }
 
   .header .navbar.active {
-    height: 17rem;
+    height: auto;
   }
 
   .header .navbar a {
