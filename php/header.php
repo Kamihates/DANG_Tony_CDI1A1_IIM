@@ -39,7 +39,7 @@
       <a href="../#about">A propos</a>
       <a href="../#features">Nos offres</a>
       <a href="../#cards">Cartes en vedette</a>
-      <a href="../#review">Avis utilisateurs</a>      
+      <a href="../#review">Avis utilisateurs</a>
     </nav>
 
     <div class="icons">
@@ -50,7 +50,7 @@
       <a id="login-btn" onclick="toggleLoginModal()" title="Login" class="fas fa-sign-in"></a>
     </div>
 
-    <div id="loginModal" class="login-modal">
+    <div id="login-modal" class="login-modal">
       <span onclick="toggleLoginModal()" class="close" title="Close Modal">&times;</span>
       <form class="login-modal-content animate" method="post">
         <div class="title">

@@ -23,10 +23,10 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide" data-name="Latios">
-          <img src="images/cartes/LatiosSpé.png" alt="Latios Spécial">
+          <img src="images/cartes/LatiosSpé.png" alt="Latio">
         </div>
         <div class="swiper-slide" data-name="Créfollet">
-          <img src="images/cartes/CréfolletSpé.png" alt="Créfollet Spécial">
+          <img src="images/cartes/CréfolletSpé.png" alt="Créfollet">
         </div>
         <div class="swiper-slide" data-name="Milobellus EX">
           <img src="images/cartes/MilobellusEX.png" alt="Milobellus EX">
@@ -35,7 +35,7 @@
           <img src="images/cartes/PikachuEX.png" alt="Pikachu EX">
         </div>
         <div class="swiper-slide" data-name="Malvalame EX">
-          <img src="images/cartes/MalvalameEX.png" alt="Malvalame EX">
+          <img src="images/cartes/MalvalameEx.png" alt="MalvalameEX">
         </div>
         <div class="swiper-slide" data-name="Fulgulairo EX">
           <img src="images/cartes/FulgulairoEX.png" alt="Fulgulairo EX">

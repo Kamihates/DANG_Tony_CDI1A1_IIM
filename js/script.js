@@ -1,13 +1,15 @@
-let menuBtn = document.querySelector('#menu-btn');
-let navbar = document.querySelector('.header .navbar');
+let menuBtn = document.querySelector('#menu-btn'); // Hamburger menu
+let navbar = document.querySelector('.header .navbar'); // Navbar
+let modal = document.querySelector('#modal');
+let modalImage = document.querySelector('#modal-image');
+let loginModal = document.querySelector('#login-modal') // Bouton login
+let musicBtn = document.querySelector('#music-btn'); // Bouton de musique
 
 menuBtn.onclick = () =>{
    menuBtn.classList.toggle('fa-times');
    navbar.classList.toggle('active');
 };
 
-// Bouton de musique du site
-let musicBtn = document.querySelector('#music-btn');
 
 // Evenement pour la musique
 musicBtn.addEventListener("click", () => {
@@ -21,7 +23,6 @@ musicBtn.addEventListener("click", () => {
 
 // Fonction pour ouvrir ou fermer la modal de connexion
 function toggleLoginModal() {
-  const loginModal = document.getElementById('loginModal');
   if (loginModal.style.display === 'block') {
     loginModal.style.display = 'none';
   } else {
@@ -31,9 +32,13 @@ function toggleLoginModal() {
 
 // Fermeture automatique de la modal si on clique en dehors
 window.onclick = function (event) {
-  const loginModal = document.getElementById('loginModal');
+  // Fermeture du modal login
   if (event.target === loginModal) {
     loginModal.style.display = 'none';
+  }
+  // Fermeture du modal carte
+  if (event.target === modal) {
+    modal.style.display = "none";
   }
 };
 
@@ -47,6 +52,8 @@ function darkMode() {
 window.onscroll = () =>{
    menuBtn.classList.remove('fa-times');
    navbar.classList.remove('active');
+   loginModal.style.display = 'none';
+   modal.style.display = "none";
 
    if(window.scrollY > 650){
       document.querySelector('.header').classList.add('active');
@@ -58,15 +65,12 @@ window.onscroll = () =>{
 
 // Fonction pour ouvrir le modal d'une carte
 function openModal(imageSrc) {
-    const modal = document.getElementById("modal");
-    const modalImage = document.getElementById("modal-image");
     modalImage.src = imageSrc;
     modal.style.display = "flex";
 }
 
 // Fonction pour fermer le modal d'une carte
 function closeModal() {
-    const modal = document.getElementById("modal");
     modal.style.display = "none";
 }
 
