@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptation mobile (viewport)  -->
   <meta name="author" content="Tony Dang">
   <meta name="description" content="Collectionnez des cartes numériques de Pokémon.">
-  <meta name="keywords" content="Pokémon, Collection, Carte">
+  <meta name="keywords" content="Pokémon, Collection, Carte, Pokemoncgg, pokemon, pkmn, pokemoncgg, tcg, cgg, collection, jeu">
   <meta data-n-head="true" data-hid="og:image" property="og:image" content="../images/background.gif">
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico"> <!-- Favicon (icone titre)  -->
 
