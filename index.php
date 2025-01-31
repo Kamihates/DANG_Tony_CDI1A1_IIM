@@ -23,7 +23,7 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide" data-name="Latios">
-          <img src="images/cartes/LatiosSpé.png" alt="Latio">
+          <img src="images/cartes/LatiosSpé.png" alt="Latios">
         </div>
         <div class="swiper-slide" data-name="Créfollet">
           <img src="images/cartes/CréfolletSpé.png" alt="Créfollet">
@@ -56,7 +56,7 @@
   <section class="about" id="about">
 
     <div class="image">
-      <img src="../images/charizard-revised-fr-unscreen.gif" alt="">
+      <img src="../images/charizard-revised-fr-unscreen.gif" alt="Dracaufeu">
     </div>
 
     <div class="content">
@@ -112,28 +112,28 @@
     <div class="card-row">
 
       <div class="card-container">
-        <img src="../images/card1.png" alt="Carte Vedette 1" class="card" onclick="openModal('../images/card1.png')">
+        <img src="../images/card1.png" alt="Carte Vedette 1" class="card" onclick="openModal('../images/card1.png')" alt="PikachuEX">
         <button class="zoom-button" onclick="openModal('../images/card1.png')">
           <i class="fas fa-search"></i>
         </button>
       </div>
 
       <div class="card-container">
-        <img src="../images/card2.png" alt="Carte Vedette 2" class="card" onclick="openModal('../images/card2.png')">
+        <img src="../images/card2.png" alt="Carte Vedette 2" class="card" onclick="openModal('../images/card2.png')" alt="Noadkoko">
         <button class="zoom-button" onclick="openModal('../images/card2.png')">
           <i class="fas fa-search"></i>
         </button>
       </div>
 
       <div class="card-container">
-        <img src="../images/card3.gif" alt="Carte Vedette 3" class="card" onclick="openModal('../images/card3.gif')">
+        <img src="../images/card3.gif" alt="Carte Vedette 3" class="card" onclick="openModal('../images/card3.gif')" alt="PondralugonEX">
         <button class="zoom-button" onclick="openModal('../images/card3.gif')">
           <i class="fas fa-search"></i>
         </button>
       </div>
 
       <div class="card-container">
-        <img src="../images/card4.gif" alt="Carte Vedette 4" class="card" onclick="openModal('../images/card4.gif')">
+        <img src="../images/card4.gif" alt="Carte Vedette 4" class="card" onclick="openModal('../images/card4.gif')" alt="LatiasEX">
         <button class="zoom-button" onclick="openModal('../images/card4.gif')">
           <i class="fas fa-search"></i>
         </button>
@@ -161,7 +161,7 @@
     <div class="box-container">
 
       <div class="box">
-        <img src="images/gunderella.webp" class="user" alt="">
+        <img src="images/gunderella.webp" class="user" alt="Gunderella profile picture">
         <h3>Elise</h3>
         <p>Attrapez les tous ! Toutes les cartes sont collectables sans dépenser d'argent ce qui est parfait si vous n'avez pas les moyens !</p>
         <div class="stars">
@@ -174,7 +174,7 @@
       </div>
 
       <div class="box">
-        <img src="images/scrapss.webp" class="user" alt="">
+        <img src="images/scrapss.webp" class="user" alt="Scrapss profile picture">
         <h3>Scrapss</h3>
         <p>Merci de nous faire retomber en enfance, c'est vraiment incroyable! J'ai toujours aimé collectionner les cartes Pokémon</p>
         <div class="stars">
@@ -188,7 +188,7 @@
       </div>
 
       <div class="box">
-        <img src="images/LA8.png" class="user" alt="">
+        <img src="images/LA8.png" class="user" alt="LA8 profile picture">
         <h3>LA8</h3>
         <div class="stars">
           <p>J'aime beaucoup, étant un fan de Pokémon depuis petit, j'ai toujours aimé les jeux Pokémon et les cartes à collectionner!</p>
