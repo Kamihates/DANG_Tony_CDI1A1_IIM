@@ -22,23 +22,20 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" data-name="Latios">
-          <img src="images/cartes/LatiosSpé.png" alt="Latios">
+        <div class="swiper-slide" data-name="<?php echo htmlspecialchars(getCard('sv9-182')['name']); ?>">
+            <img src="<?php echo htmlspecialchars(getCard('sv9-182')['image']); ?>" alt="Volcanion EX" />
         </div>
-        <div class="swiper-slide" data-name="Créfollet">
-          <img src="images/cartes/CréfolletSpé.png" alt="Créfollet">
+        <div class="swiper-slide" data-name="<?php echo htmlspecialchars(getCard('sv9-189')['name']); ?>">
+            <img src="<?php echo htmlspecialchars(getCard('sv9-189')['image']); ?>" alt="N's Zoroark EX" />
         </div>
-        <div class="swiper-slide" data-name="Milobellus EX">
-          <img src="images/cartes/MilobellusEX.png" alt="Milobellus EX">
+        <div class="swiper-slide" data-name="<?php echo htmlspecialchars(getCard('sv9-164')['name']); ?>">
+            <img src="<?php echo htmlspecialchars(getCard('sv9-164')['image']); ?>" alt="Lili Ribombee" />
         </div>
-        <div class="swiper-slide" data-name="Pikachu EX">
-          <img src="images/cartes/PikachuEX.png" alt="Pikachu EX">
+        <div class="swiper-slide" data-name="<?php echo htmlspecialchars(getCard('sv9-180')['name']); ?>">
+          <img src="<?php echo htmlspecialchars(getCard('sv9-180')['image']); ?>" alt="Iris Fighting Spirit" />
         </div>
-        <div class="swiper-slide" data-name="Malvalame EX">
-          <img src="images/cartes/MalvalameEx.png" alt="MalvalameEX">
-        </div>
-        <div class="swiper-slide" data-name="Fulgulairo EX">
-          <img src="images/cartes/FulgulairoEX.png" alt="Fulgulairo EX">
+        <div class="swiper-slide" data-name="<?php echo htmlspecialchars(getCard('sv9-190')['name']); ?>">
+            <img src="<?php echo htmlspecialchars(getCard('sv9-190')['image']); ?>" alt="Spiky Energy" />
         </div>
       </div>
     </div>
@@ -72,7 +69,7 @@
 
   <!-- Début section activity  -->
 
-        <section class="features" id="features">
+  <section class="features" id="features">
 
            <h1 class="heading"> Nos offres</h1>
 
@@ -100,8 +97,7 @@
 
         </section>
 
-        <!-- Fin section activity -->
-
+  <!-- Fin section activity -->
 
   <!-- Début section cards -->
 
@@ -112,29 +108,26 @@
     <div class="card-row">
 
       <div class="card-container">
-        <img src="../images/card1.png" alt="Carte Vedette 1" class="card" onclick="openModal('../images/card1.png')" alt="PikachuEX">
-        <button class="zoom-button" onclick="openModal('../images/card1.png')">
+        <img src="<?php echo htmlspecialchars(getCard('sv9-182')['image']); ?>" alt="VolcanionEX" class="card" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-182')['image']); ?>')" alt="VolcanionEX">
+        <button class="zoom-button" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-182')['image']); ?>')">
           <i class="fas fa-search"></i>
         </button>
       </div>
-
       <div class="card-container">
-        <img src="../images/card2.png" alt="Carte Vedette 2" class="card" onclick="openModal('../images/card2.png')" alt="Noadkoko">
-        <button class="zoom-button" onclick="openModal('../images/card2.png')">
+        <img src="<?php echo htmlspecialchars(getCard('sv9-189')['image']); ?>" alt="N's Zoroark" class="card" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-189')['image']); ?>')" alt="N's Zoroark">
+        <button class="zoom-button" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-189')['image']); ?>')">
           <i class="fas fa-search"></i>
         </button>
       </div>
-
       <div class="card-container">
-        <img src="../images/card3.gif" alt="Carte Vedette 3" class="card" onclick="openModal('../images/card3.gif')" alt="PondralugonEX">
-        <button class="zoom-button" onclick="openModal('../images/card3.gif')">
+        <img src="<?php echo htmlspecialchars(getCard('sv9-164')['image']); ?>" alt="Lili Ribombee" class="card" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-164')['image']); ?>')" alt="Lili Ribombee">
+        <button class="zoom-button" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-164')['image']); ?>')">
           <i class="fas fa-search"></i>
         </button>
       </div>
-
       <div class="card-container">
-        <img src="../images/card4.gif" alt="Carte Vedette 4" class="card" onclick="openModal('../images/card4.gif')" alt="LatiasEX">
-        <button class="zoom-button" onclick="openModal('../images/card4.gif')">
+        <img src="<?php echo htmlspecialchars(getCard('sv9-180')['image']); ?>" alt="Iris Fighting Spirit" class="card" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-180')['image']); ?>')" alt="Iris Fighting Spirit">
+        <button class="zoom-button" onclick="openModal('<?php echo htmlspecialchars(getCard('sv9-180')['image']); ?>')">
           <i class="fas fa-search"></i>
         </button>
       </div>
