@@ -18,6 +18,8 @@
         <a class="link" href="docs/zoning.pdf"><i class="fas fa-angle-right"></i>Zoning</a>
         <a class="link" href="docs/wireframe.pdf"><i class="fas fa-angle-right"></i>Wireframe</a>
         <a class= "link" href="https://www.figma.com/proto/imWkyB7rLyxH9AceN3sNO4/Pokemon-CGG?node-id=1-277&p=f&t=n28IkByU60yPO1jR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"><i class="fas fa-angle-right"></i>Figma</a>
+        <a class= "link" href="https://pokemontcg.io/"><i class="fas fa-angle-right"></i>API Pokémon TCG</a>
+        <a class= "link" href="https://pokemontcg.guru/"><i class="fas fa-angle-right"></i>Pokémon Database</a>
       </div>
 
       <div class="box">

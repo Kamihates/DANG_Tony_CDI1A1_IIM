@@ -1,0 +1,27 @@
+Analyse site https://tcgpocket.pokemon.com/fr-fr/
+
+Front-end :
+
+    Next.js (avec React)
+
+    Goober, jQuery
+
+    Webpack
+
+Back-end :
+
+    Next.js (génération côté serveur)
+
+Hébergement et Infrastructure :
+
+    Amazon Web Services (PaaS)
+
+    CDN : Imperva, Amazon CloudFront
+
+    Stockage : Amazon S3
+
+Outils de gestion :
+
+    Google Tag Manager
+
+    Open Graph, PWA
