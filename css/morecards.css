@@ -105,3 +105,27 @@
 .morecards .card:hover {
   transform: translateY(-1rem);
 }
+
+.morecards .pagination {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.morecards .pagination-btn {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: var(--red);
+  color: white;
+  transition: all 0.2s;
+}
+
+.morecards .pagination-btn:hover {
+  background-color: var(--white);
+  color: var(--red);
+}

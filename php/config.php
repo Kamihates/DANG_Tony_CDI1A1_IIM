@@ -1,9 +1,9 @@
 <?php
 
 // Inclure l'autoloader de Composer
-require 'vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
-// Utiliser la classe Pokemon
+// Utiliser la classe Pokémon
 use Pokemon\Pokemon;
 
 // Initialisation de l'API avec la clé API

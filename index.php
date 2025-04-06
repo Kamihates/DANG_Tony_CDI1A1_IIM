@@ -5,6 +5,7 @@
   <!-- Début section header  -->
 
   <?php include 'php/header.php'; ?>
+  <?php include 'php/config.php'; ?>
 
   <!-- Fin section header  -->
 </head>
